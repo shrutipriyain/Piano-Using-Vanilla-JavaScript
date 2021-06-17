@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Piano</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>PIANO</h1>
+    <p>Press the keys or use your keyboard.<br>Please make sure CAPS LOCKS is on.<br>Press <code>Shift + the letter</code> to play the black keys</p>
+    <div id="container">
+        <div data-key="67"  class="white" id="C" style="margin-left:0px">C</div>
+        <div data-key="99"  class="black" id="C#">C#</div>
+        <div data-key="68"  class="white" id="D">D</div>
+        <div data-key="100" class="black" id="D3">D#</div>
+        <div data-key="69"  class="white" id="E">E</div>
+        <div data-key="70"  class="white" id="F">F</div>
+        <div data-key="102" class="black" id="F#">F#</div>
+        <div data-key="71"  class="white" id="G">G</div>
+        <div data-key="103" class="black" id="G#">G#</div>
+        <div data-key="65"  class="white" id="A">A</div>
+        <div data-key="97"  class="black" id="A#">A#</div>
+        <div data-key="66"  class="white" id="B">B</div>
+    </div>
+    <audio data-key="67" src="sounds/68440__pinkyfinger__piano-c.wav"></audio>
+    <audio data-key="99" src="sounds/68441__pinkyfinger__piano-c.wav" ></audio>
+    <audio data-key="68" src="sounds/68442__pinkyfinger__piano-d.wav" ></audio>
+    <audio data-key="100" src="sounds/68444__pinkyfinger__piano-eb.wav" ></audio>
+    <audio data-key="69" src="sounds/68443__pinkyfinger__piano-e.wav" ></audio>
+    <audio data-key="70" src="sounds/68445__pinkyfinger__piano-f.wav" ></audio>
+    <audio data-key="102" src="sounds/68447__pinkyfinger__piano-gb.wav" ></audio>
+    <audio data-key="71" src="sounds/68448__pinkyfinger__piano-g.wav" ></audio>
+    <audio data-key="103" src="sounds/68448__pinkyfinger__piano-g.wav" ></audio>
+    <audio data-key="65" src="sounds/68437__pinkyfinger__piano-a.wav" ></audio>
+    <audio data-key="97" src="sounds/68439__pinkyfinger__piano-bb.wav" ></audio>
+    <audio data-key="66" src="sounds/68438__pinkyfinger__piano-b.wav" ></audio>
+
+<script src=app.js></script>
+</body>
+</html>
